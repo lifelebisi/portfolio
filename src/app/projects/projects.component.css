@@ -1,0 +1,81 @@
+.projects {
+  background:  #ebcbc7;
+  padding: 50px;
+}
+/* CSS for Projects section */
+.projects {
+  padding: 2rem;
+}
+
+/* Title centered at the top */
+.projects h2 {
+  text-align: center;
+}
+
+/* Card styles */
+.project-card {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.project-card .image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.project-card img {
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+/* Hover effect to pop up */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image hover effect */
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Description fade effect */
+.project-card p {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-card:hover p {
+  opacity: 1;
+}
+
+/* Link hover effect */
+.project-card a {
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #070707; /* Adjust for blue hover */
+}
+@layer utilities {
+  .hover\:rotate-3d:hover {
+    transform: rotateY(10deg) rotateX(10deg);
+  }
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:   #ebcbc7;; /* Green button color */
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color:  #ebcbc7; /* Darker green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
