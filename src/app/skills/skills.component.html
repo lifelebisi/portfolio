@@ -1,48 +1,123 @@
-<section id="skills" class="about flex flex-col bg-[#F8E8E8] py-20">
+<section id="skills" class="py-24 bg-black text-white">
+  
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
 
-  <!-- Skills Section -->
-  <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-16">
-    <!-- Laptop Image -->
-    <div class="mac">
-      <img src="/assets/macx.png"
-           alt="Laptop illustration"
-           class="w-full max-w-[450px] h-auto shadow-2xl rounded-lg">
-    </div>
 
-    <div class="lg:w-1/2 text-center lg:text-left">
-      <h2 class="mb-12 text-4xl tracking-tight font-extrabold text-gray-900">Skills</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">HTML</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">CSS</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000" alt="Angular" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">Angular</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="GitHub" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">GitHub</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=IptzmlWb7qS3&format=png&color=000000" alt="Git" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">Git</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="JavaScript" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">JavaScript</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mySQL" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">mySQL</p>
-        </div>
-        <div class="skill-item hover:scale-110 transition-transform duration-300">
-          <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="Node.js" class="mb-2 w-16 h-16">
-          <p class="text-sm font-medium text-gray-900">Node.js</p>
+      <!-- 💻 Macbook Image -->
+      <div class="w-full max-w-lg mx-auto lg:mx-0">
+        <img
+          src="assets/mac.png"
+          alt="MacBook with Code"
+          class="w-full h-auto rounded-xl shadow-2xl hover:scale-105 transition duration-300"
+        />
+      </div>
+
+      <!-- 🛠️ Skills Grid -->
+      <div class="w-full lg:w-1/2 text-center lg:text-right">
+        <h2 class="text-4xl font-extrabold mb-10 text-purple-400">Skills</h2>
+
+        <div class="grid grid-cols-2 sm:grid-cols-2 gap-6">
+
+          <!-- HTML -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=FFFFFF" class="w-6 h-6" alt="HTML" />
+              <span class="font-semibold">HTML</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-purple-500" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=FFFFFF" class="w-6 h-6" alt="CSS" />
+              <span class="font-semibold">CSS</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-blue-500" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=FFFFFF" class="w-6 h-6" alt="JavaScript" />
+              <span class="font-semibold">JavaScript</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-yellow-500" style="width: 88%"></div>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6" alt="Java" />
+              <span class="font-semibold">Java</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-purple-500" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <!-- Spring Boot -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="w-6 h-6" alt="Spring Boot" />
+              <span class="font-semibold">Spring Boot</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-white" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <!-- Angular -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=FFFFFF" class="w-6 h-6" alt="Angular" />
+              <span class="font-semibold">Angular</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-pink-500" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <!-- GitHub -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=FFFFFF" class="w-6 h-6" alt="GitHub" />
+              <span class="font-semibold">GitHub</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-yellow-500" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <!-- MySQL -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-6 h-6" alt="MySQL" />
+              <span class="font-semibold">MySQL</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-orange-500" style="width: 78%"></div>
+            </div>
+          </div>
+
+          <!-- Node.js -->
+          <div class="bg-gray-900 p-4 rounded-xl shadow-md hover:shadow-purple-500/50 transition duration-300">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=FFFFFF" class="w-6 h-6" alt="Node.js" />
+              <span class="font-semibold">Node.js</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-2">
+              <div class="h-2 rounded-full bg-green-500" style="width: 70%"></div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

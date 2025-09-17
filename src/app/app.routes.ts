@@ -4,5 +4,5 @@ import { LandingComponent } from './landing/landing.component';
 
 export const routes: Routes = [
   {path: '', title: 'Home', component: LandingComponent },
-  {path: '', title: 'Home', component: LandingComponent },
+
 ];
